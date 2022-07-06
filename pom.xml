@@ -11,7 +11,7 @@
   <name>yashJar_1 arithmetic library</name>
   <description> Simple math like library</description>
   <!-- FIXME change it to the project's website -->
-  <url>https://github.com/Yashsankpal/yashJar</url>
+  <url>https://github.com/yashsankpal7/yashJar</url>
 
   <licenses>
     <license>
@@ -39,16 +39,16 @@
   <developers>
     <developer>
       <name>Yash Sankpal</name>
-      <email>yashsankpal007@gmail.com</email>
+      <email>crce.8695.it@gmail.com</email>
       <organization>com.github.Yashsankpal</organization>
-      <organizationUrl>https://github.com/Yashsankpal</organizationUrl>
+      <organizationUrl>https://github.com/yashsankpal7</organizationUrl>
     </developer>
   </developers>
 
   <scm>
-    <connection>scm:git:git://github.com/Yashsankpal/yashJar.git</connection>
-    <developerConnection>scm:git:ssh://github.com:Yashsankpal/yashJar.git</developerConnection>
-    <url>https://github.com/Yashsankpal/yashJar</url>
+    <connection>scm:git:git://github.com/yashsankpal7/yashJar.git</connection>
+    <developerConnection>scm:git:ssh://github.com:yashsankpal7/yashJar.git</developerConnection>
+    <url>https://github.com/yashsankpal7/yashJar</url>
   </scm>
 
 
@@ -159,6 +159,17 @@
               </goals>
             </execution>
           </executions>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-release-plugin</artifactId>
+          <version>2.5.3</version>
+          <configuration>
+            <autoVersionSubmodules>true</autoVersionSubmodules>
+            <useReleaseProfile>false</useReleaseProfile>
+            <releaseProfiles>release</releaseProfiles>
+            <goals>deploy</goals>
+          </configuration>
         </plugin>
       </plugins>
   </build>
