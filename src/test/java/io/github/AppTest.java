@@ -1,4 +1,4 @@
-package com.example.yashJar_1;
+package io.github;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;

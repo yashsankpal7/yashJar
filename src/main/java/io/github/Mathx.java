@@ -1,4 +1,4 @@
-package com.example.yashJar_1;
+package io.github;
 
 /**
  * Hello world!
